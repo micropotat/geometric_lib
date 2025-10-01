@@ -1,6 +1,6 @@
 # geometriclib
 ## Общее описание
-### geometriclib - библиотека для работы с площадью и периметром кругов, квадратов и кругов на языке python.
+### geometriclib - библиотека для работы с площадью и периметром кругов, квадратов и треугольников на языке python.
 ## Функции с примерами вызова
 ```py
 import geometric_lib.circle as circle, geometric_lib.square as square,\
