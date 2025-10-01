@@ -27,15 +27,15 @@ trianlge.perimeter(r) # Периметр треугольника со стор�
 Trian_per = triangle.perimeter(14, 10, 6) #  30
 ```
 ## История изменений
-```commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (upstream/main, upstream/HEAD, docs)
+```commit 13af54f1d772ca87f29586c6467829bd2bf4302f
+Author: Sati Kultueva <satironius@icloud.com>
+Date:   Tue Sep 30 14:35:34 2025 +0300
+
+    Added comments
+
+commit d078c8d9ee6155f3cb0e577d28d337b791de28e2 (upstream/main, upstream/HEAD, docs)
 Author: smartiqa <info@smartiqa.ru>
 Date:   Thu Mar 4 14:55:29 2021 +0300
 
     L-03: Docs added
-
-commit 8ba9aeb3cea847b63a91ac378a2a6db758682460
-Author: smartiqa <info@smartiqa.ru>
-Date:   Thu Mar 4 14:54:08 2021 +0300
-
-    L-03: Circle and square added
 ```
