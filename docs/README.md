@@ -35,7 +35,8 @@ Rectan_per = rectangular.perimeter(5, 3) #  16
 
 ```
 ## История изменений
-```commit 607448521318bb0e2214c6d74e9625d83693f741 (HEAD -> main, origin/main, origin/HEAD)
+```
+commit 607448521318bb0e2214c6d74e9625d83693f741 (HEAD -> main, origin/main, origin/HEAD)
 Author: Sati Kultueva
 Date:   Tue Oct 28 19:10:41 2025 +0300
 
