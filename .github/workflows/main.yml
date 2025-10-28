@@ -1,0 +1,21 @@
+name: Run Unit Tests
+
+on: [push] # Trigger on every push to any branch
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest] # Run on both OS
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Run tests
+        run: python -m unittest test_rectangle.py
