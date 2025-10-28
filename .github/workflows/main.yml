@@ -1,12 +1,12 @@
 name: Run Unit Tests
 
-on: [push] # Trigger on every push to any branch
+on: [push] # Запуск при каждом push в любую ветку
 
 jobs:
   test:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest] # Run on both OS
+        os: [ubuntu-latest, windows-latest] # Тестирование на Ubuntu и Windows
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout code
